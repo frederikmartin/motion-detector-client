@@ -5,7 +5,7 @@ import sys
 import argparse
 from datetime import datetime, timedelta
 
-logger = helpers.Logger(True, 'logs/motion_detector_client.log')
+logger = helpers.Logger(True, '/tmp/logs/motion_detector_client.log')
 
 def detect_motion(bridge, user, motion_sensor):
     logger.info('Request motion sensor')
