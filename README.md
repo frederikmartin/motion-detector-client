@@ -11,7 +11,7 @@ The client can e.g. be called within a cronjob using `crontab` to frequently che
 
 ## Requirements
 
-Python >= 3.5
+Python >= 3.5 is required.
 
 ## Usage
 
@@ -30,3 +30,11 @@ optional arguments:
   -h, --help           show this help message and exit
   --log_path LOG_PATH  Filepath for logging
 ```
+
+## AWS LAMBDA
+
+The lambda function is requested using the POST method. Additionally an API key is send within the header of the request object to secure the access of the endpoint.
+
+## Licence
+
+See [LICENCE](./LICENCE) file.
